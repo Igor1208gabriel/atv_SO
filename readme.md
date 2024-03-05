@@ -24,34 +24,34 @@ date Mostra a hora atual.
     
     Lista os arquivos localizados em um determinado diretório. Caso não seja especificado o diretório, usa o diretório de trabalho atual, que pode ser recuperado pela chamada de sistema getcwd().
     
-- [ ]  cp
+- [ ]  [cp](codigos/cp.cpp)
     
     Copia os conteúdos de um arquivo para o outro
     
-- [ ]  rm
+- [ ]  [rm](codigos/rm.cpp)
     
     Remove arquivos
     
-- [ ]  mv
+- [ ]  [mv](codigos/mv.cpp)
     
     Muda um arquivo de lugar. pode mudar um conjunto de arquivos se o destino for um diretório
     
-- [ ]  cat
+- [ ]  [cat](codigos/cat.cpp)
     
     Mostra o conteúdo de um arquivo no terminal, considerando apenas arquivos em modo texto
     
-- [ ]  mkdir
+- [ ]  [mkdir](codigos/mkdir.cpp)
     
     Cria um novo diretório
     
-- [ ]  rmdir
+- [ ]  [rmdir](codigos/rmdir.cpp)
     
     Remove um diretório caso o mesmo esteja vazio
     
-- [ ]  chmod
+- [ ]  [chmod](codigos/chmod.cpp)
     
     Muda as permissões de um arquivo/diretório
     
-- [ ]  chown
+- [ ]  [chown](codigos/chown.cpp)
     
     Muda o usuário dono de um arquivo ou grupo ao qual ele pertence
