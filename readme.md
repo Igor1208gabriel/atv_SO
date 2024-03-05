@@ -1,0 +1,57 @@
+# Sistemas Operacionais
+
+## Atividade de chamadas de sistema
+
+### Objetivo
+
+Proporcionar aplicação prática dos conceitos de chamadas de sistemas, syscall, em sistemas operacionais
+Unix e derivados.
+
+### Chamada de sistema
+
+Chamadas de sistema são funções que o Sistema Operacional disponibiliza para acessar os recursos que o mesmo gerencia. Para facilitar o uso dessas funções são desenvolvidos programas de sistemas, que permitem que o usuário realize tarefas administrativas através da execução de programas, ao invés de fazer ele mesmo um programa.
+
+## Programas
+
+Os programas de sistemas a serem implementados são:
+date Mostra a hora atual.
+
+- [ ]  Uptime
+    
+    Mostra há quanto tempo o computador está ligado
+    
+- [ ]  ls
+    
+    Lista os arquivos localizados em um determinado diretório. Caso não seja especificado o diretório, usa o diretório de trabalho atual, que pode ser recuperado pela chamada de sistema getcwd().
+    
+- [ ]  cp
+    
+    Copia os conteúdos de um arquivo para o outro
+    
+- [ ]  rm
+    
+    Remove arquivos
+    
+- [ ]  mv
+    
+    Muda um arquivo de lugar. pode mudar um conjunto de arquivos se o destino for um diretório
+    
+- [ ]  cat
+    
+    Mostra o conteúdo de um arquivo no terminal, considerando apenas arquivos em modo texto
+    
+- [ ]  mkdir
+    
+    Cria um novo diretório
+    
+- [ ]  rmdir
+    
+    Remove um diretório caso o mesmo esteja vazio
+    
+- [ ]  chmod
+    
+    Muda as permissões de um arquivo/diretório
+    
+- [ ]  chown
+    
+    Muda o usuário dono de um arquivo ou grupo ao qual ele pertence
