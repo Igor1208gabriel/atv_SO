@@ -16,7 +16,7 @@ Chamadas de sistema são funções que o Sistema Operacional disponibiliza para 
 Os programas de sistemas a serem implementados são:
 date Mostra a hora atual.
 
-- [ ]  [Uptime](codigos/uptime.cpp)
+- [x]  [Uptime](codigos/uptime.cpp)
     
     Mostra há quanto tempo o computador está ligado
     
