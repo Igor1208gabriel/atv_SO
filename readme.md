@@ -20,7 +20,7 @@ date Mostra a hora atual.
 
     Mostra a data e hora atuais
 
-- [ ]  [Uptime](codigos/uptime.cpp)
+- [x]  [Uptime](codigos/uptime.cpp)
     
     Mostra há quanto tempo o computador está ligado
     
