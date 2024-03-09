@@ -24,7 +24,7 @@ date Mostra a hora atual.
     
     Mostra há quanto tempo o computador está ligado
     
-- [ ]  [ls](codigos/ls.cpp)
+- [x]  [ls](codigos/ls.cpp)
     
     Lista os arquivos localizados em um determinado diretório. Caso não seja especificado o diretório, usa o diretório de trabalho atual, que pode ser recuperado pela chamada de sistema getcwd().
     
