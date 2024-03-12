@@ -24,7 +24,10 @@ int main(int argc, char **argv){
     info = localtime(&tempo_atual_inicial);
         //struct com informações da data com base em tempo_atual_inicial (https://cplusplus.com/reference/ctime/tm/)
     
-    std::cout << dia(info->tm_wday) << mes(info->tm_mon) << info->tm_mday << " " << info->tm_hour << ":" << info->tm_min << ":" << info->tm_sec << " " << info->tm_year+1900 << "\n";
+    std::cout
+    << dia(info->tm_wday) << mes(info->tm_mon) << info->tm_mday << " " 
+    << info->tm_hour << ":" << info->tm_min << ":" << info->tm_sec << " " 
+    << info->tm_year+1900 << "\n";
         //tm_wday retorna o dia da semana entre 0-6
         //tm_mon retorna o mês do ano entre 0-11
         //tm_mday retorna o dia do mês entre 1-31
