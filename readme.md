@@ -28,7 +28,7 @@ date Mostra a hora atual.
     
     Lista os arquivos localizados em um determinado diretório. Caso não seja especificado o diretório, usa o diretório de trabalho atual, que pode ser recuperado pela chamada de sistema getcwd().
     
-- [ ]  [cp](codigos/cp.cpp)
+- [x]  [cp](codigos/cp.cpp)
     
     Copia os conteúdos de um arquivo para o outro
     
@@ -40,15 +40,15 @@ date Mostra a hora atual.
     
     Muda um arquivo de lugar. pode mudar um conjunto de arquivos se o destino for um diretório
     
-- [ ]  [cat](codigos/cat.cpp)
+- [x]  [cat](codigos/cat.cpp)
     
     Mostra o conteúdo de um arquivo no terminal, considerando apenas arquivos em modo texto
     
-- [ ]  [mkdir](codigos/mkdir.cpp)
+- [x]  [mkdir](codigos/mkdir.cpp)
     
     Cria um novo diretório
     
-- [ ]  [rmdir](codigos/rmdir.cpp)
+- [x]  [rmdir](codigos/rmdir.cpp)
     
     Remove um diretório caso o mesmo esteja vazio
     

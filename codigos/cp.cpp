@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv){
 
-    if(argc < 3){                               //não tem dois arquivos 
+    if(argc != 3){                               //não tem exatamente dois arquivos 
         std::cout << "Digite a entrada corretamente\n";
         return 1;
     }
@@ -28,7 +28,6 @@ int main(int argc, char **argv){
     close(alvo);                                //fechar os arquivos
     close(fonte);
     }
-
 
     /*
     else{                           //copiar vários arquivos para um diretório
