@@ -60,7 +60,7 @@ int main(int argc, char **argv)
   }
   else
   {
-    std::cout << "Não foi possível resgatar o Uptime\n";
+    std::cerr << "Não foi possível resgatar o Uptime\n";
     // não consigo imaginar um caso onde isto aconteceria, a não ser se o sistema não fosse UNIX
     // vou deixar isso aqui mesmo assim
   }

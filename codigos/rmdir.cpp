@@ -12,12 +12,12 @@ int main(int argc, char **argv)
             if (rmdir(argv[i]) != 0)
             { // tenta remover diretório
               // diretório não está vazio ou outro código de erro
-                std::cout << "Diretório " << argv[i] << " não removido\n";
+                std::cerr << "Diretório " << argv[i] << " não removido\n";
             }
         }
         else
         { // diretório não existe
-            std::cout << "Diretório " << argv[i] << " não existe\n";
+            std::cerr << "Diretório " << argv[i] << " não existe\n";
         }
     }
     return 0;

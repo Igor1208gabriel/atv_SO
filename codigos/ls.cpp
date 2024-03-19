@@ -23,7 +23,7 @@ void printe(const char *path)
     }
     else
     {
-        std::cout << "Digite um nome válido de diretório" << std::endl;
+        std::cerr << "Digite um nome válido de diretório" << std::endl;
         return;
     }
 }

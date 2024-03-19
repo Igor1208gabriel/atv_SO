@@ -9,7 +9,7 @@ int main(int argc, char **argv)
         if (mkdir(argv[i], 0777) == -1)
             // comando para criar um diretório
             // se este já não existir
-            std::cout << "mkdir: não pode criar diretório '" << argv[i] << std::endl;
+            std::cerr << "mkdir: não pode criar diretório '" << argv[i] << std::endl;
     }
 
     return 0;

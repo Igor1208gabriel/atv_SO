@@ -8,7 +8,7 @@ int main(int argc, char **argv)
 
     if (argc != 3)
     { // não tem exatamente dois arquivos
-        std::cout << "Digite a entrada corretamente\n";
+        std::cerr << "Digite a entrada corretamente\n";
         return 1;
     }
 

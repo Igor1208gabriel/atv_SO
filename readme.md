@@ -52,7 +52,7 @@ date Mostra a hora atual.
     
     Remove um diretório caso o mesmo esteja vazio
     
-- [ ]  [chmod](codigos/chmod.cpp)
+- [x]  [chmod](codigos/chmod.cpp)
     
     Muda as permissões de um arquivo/diretório
     
