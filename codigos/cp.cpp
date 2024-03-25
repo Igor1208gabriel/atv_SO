@@ -6,7 +6,7 @@
 int main(int argc, char **argv)
 {
 
-    if (argc != 3)
+    if (argc < 3)
     { // não tem exatamente dois arquivos
         std::cerr << "Digite a entrada corretamente\n";
         return 1;
@@ -32,28 +32,29 @@ int main(int argc, char **argv)
         close(fonte);
     }
 
-    /*
-    else{                           //copiar vários arquivos para um diretório
-                                    //não deu certo e eu não sei como fazer
+    /*  sei o que fazer aqui, porém não deu tempo
+        na pasta nova, criar um arquivo para cada arquivo a copiar
 
-    const char *alvoe = argv[argc-1];
-    int alvo = open(alvoe, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
+        else{
 
-        for(int i = 1; i < argc-1;i++){
-            char *fontee = argv[i];
-            char buff[1024];
-            int s;
+        const char *alvoe = argv[argc-1];
+        int alvo = open(alvoe, O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
 
-            int fonte = open(fontee, O_RDONLY);
+            for(int i = 1; i < argc-1;i++){
+                char *fontee = argv[i];
+                char buff[1024];
+                int s;
 
-            while((s = read(fonte, buff, 1024)) != 0){
-                write(alvo, buff, s);
+                int fonte = open(fontee, O_RDONLY);
+
+                while((s = read(fonte, buff, 1024)) != 0){
+                    write(alvo, buff, s);
+                }
+                close(fonte);
             }
-            close(fonte);
-        }
 
-        close(alvo);
-    }
+            close(alvo);
+        }
     */
 
     return 0;

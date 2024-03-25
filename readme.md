@@ -32,7 +32,7 @@ date Mostra a hora atual.
     
     Copia os conteúdos de um arquivo para o outro
     
-- [ ]  [rm](codigos/rm.cpp)
+- [x]  [rm](codigos/rm.cpp)
     
     Remove arquivos
     
